@@ -49,7 +49,7 @@ main {
   display: grid;
   align-items:flex-start;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .feed
 .feed__inhoud {
@@ -63,7 +63,7 @@ main {
 .vakantie,
 .activiteiten {
   /* width: 45%; */
-  margin: 0 5px;
+  margin: 5px;
 }
 .afwezig__item {
   background-color: rgba(11, 156, 46, 0.2);
