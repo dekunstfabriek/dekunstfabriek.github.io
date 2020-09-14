@@ -92,6 +92,12 @@ main {
 section {
   margin-bottom: 25px;
 }
+hr {
+  margin-bottom: 10px;
+}
+p {
+  padding: 7px 0;
+}
 li {
   list-style: none;
   padding-bottom: 4px;
