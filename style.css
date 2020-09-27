@@ -59,7 +59,7 @@ main {
 .feed__inhoud {
   /* min-width: 45vw; */
 }
-.feed p {margin-top: 6px;}
+.feed p {margin-top: 3px;}
 .afwezig,
 .lesverplaatsing,
 .vakantie,
@@ -121,8 +121,7 @@ u {
   ===================================================== */
 .tooltip {
   position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
+  /* display: inline-block; */
 }
 .tooltip .tooltiptext {
   visibility: hidden;
@@ -133,20 +132,19 @@ u {
   border-top-right-radius: 11px;
   padding: 1px 0;
   border-left: 2px solid rgb(236, 112, 99);
+  font-size: 12px;
 
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: -13px;
+  top: -10px;
   left: -2px;
 }
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
 .feed > p {border-left: 2px solid rgba(236, 112, 99,0);}
-.feed > p:hover {
-  border-left: 2px solid #EC7063;
-}
+.feed > p:hover {border-left: 2px solid #EC7063;}
 /* .pijl li::after {
   content: " --- "
 } */
