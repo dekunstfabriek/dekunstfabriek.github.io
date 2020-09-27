@@ -49,7 +49,8 @@ main {
   display: grid;
   align-items:flex-start;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  margin-top: 25px;
+  /* margin-top: 25px;
+  margin-bottom: 20px; */
 }
 .feed
 .feed__inhoud {
@@ -58,6 +59,7 @@ main {
 .feed__inhoud {
   /* min-width: 45vw; */
 }
+.feed p {margin-top: 6px;}
 .afwezig,
 .lesverplaatsing,
 .vakantie,
@@ -107,6 +109,43 @@ h2 {
   text-transform: uppercase;
   font-size: 24px;
   letter-spacing: 1px;
+}
+u {
+  text-decoration-line: underline;
+  text-decoration-color: #EC7063;
+  text-decoration-style: solid;
+  color: #EC7063;
+}
+/* ====================================================
+  ASSETSS--------------
+  ===================================================== */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(244,244,244,0.3);
+  color: #000;
+  text-align: center;
+  border-top-right-radius: 11px;
+  padding: 1px 0;
+  border-left: 2px solid rgb(236, 112, 99);
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -13px;
+  left: -2px;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.feed > p {border-left: 2px solid rgba(236, 112, 99,0);}
+.feed > p:hover {
+  border-left: 2px solid #EC7063;
 }
 /* .pijl li::after {
   content: " --- "
