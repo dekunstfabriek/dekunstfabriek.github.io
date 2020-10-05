@@ -80,6 +80,9 @@ main {
 .activiteiten__item {
   background-color: rgba(255, 0, 0, 0.2);
 }
+.leraars {
+  padding: 25px 0 45px;
+}
 /* Global stylesheet
 ======================================== */
 .border-1 {
