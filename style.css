@@ -120,6 +120,15 @@ u {
   text-decoration-style: solid;
   color: #EC7063;
 }
+a {
+  text-decoration: none;
+  color: #FFBE33;
+}
+a:hover {
+  color: orange;
+  text-decoration: underline;
+  transition: all .6s;
+}
 /* ====================================================
   ASSETSS--------------
   ===================================================== */
