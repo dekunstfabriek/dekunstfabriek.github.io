@@ -123,11 +123,11 @@ u {
 a {
   text-decoration: none;
   color: #FFBE33;
+  transition: all .6s;
 }
 a:hover {
   color: orange;
   text-decoration: underline;
-  transition: all .6s;
 }
 /* ====================================================
   ASSETSS--------------
