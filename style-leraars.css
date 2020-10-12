@@ -23,7 +23,8 @@ h3 {font-size: 1.4em;color:#000;}
 img {width: 100%;}
 li {list-style: none;margin: 5px 0;}
 a {text-decoration: none;color: orange;}
-a:hover {color: darkorange;}
+a:hover {color: darkorange;text-decoration: underline;}
+hr {border-color: orange; margin-top: 18px;margin-bottom: 8px;border-style: solid;opacity: .5;border-width: 1px;border-top: none;}
 /* SPECIFIC STYLES
 ================================================= */
 .row {
@@ -37,7 +38,7 @@ a:hover {color: darkorange;}
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .header-top .logo {flex:1;align-self: flex-start;}
 .header-top .feed {
@@ -56,6 +57,8 @@ a:hover {color: darkorange;}
   }
   .feed {width: 100%;}
   .header-top .feed {margin-left: 0;}
+  h1 {font-size: 2.7em;}
+  .logo h1 {font-size: 3.5em;}
 }
 .logo img {
   max-width: 100%;
@@ -83,7 +86,8 @@ figcaption {
 .lesverplaatsing__wrap {
   display: grid;
   /* align-items:flex-start; */
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
   gap: 10px;
   margin-top: 10px;
+  padding: 0 8px;
 }
