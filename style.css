@@ -92,7 +92,8 @@ main {
 .leraars {
   padding: 25px 0 45px;
 }
-.code-oranje {
+.code-oranje,
+.code-rood {
   padding: 8px;
 }
 .code-oranje__wrap {
@@ -101,25 +102,39 @@ main {
   padding: 10px;
   border-radius: 6px;
 }
-.code-oranje__wrap h1 {
+.code-rood__wrap {
+  background-color: hsla(0,100%,50%, .86);
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+}
+.code-oranje__wrap h1,
+.code-rood__wrap h1 {
   text-transform: uppercase;
   font-size: 2em;
 }
-.code-oranje__wrap h3 {
+.code-oranje__wrap h3,
+.code-rood__wrap h3 {
   font-size: 1.3em;
   text-transform: uppercase;
   margin: 12px 0;
 }
-.code-oranje__wrap ul {
+.code-oranje__wrap ul,
+.code-rood__wrap ul {
   padding: 5px 8px;
   background-color: #000;
   border-radius: 6px;
 }
-.code-oranje__wrap li {
+.code-oranje__wrap li,
+.code-rood__wrap li {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 4px;
 }
 .code-oranje__wrap li strong {color: orange;}
+.code-rood__wrap li strong {color: hsla(0,100%,50%, .86);}
+.code-rood__wrap li a {color: red;}
+.code-rood__wrap li a:hover {color: hsla(0,100%,50%, .86);}
+
 /* Global stylesheet
 ======================================== */
 .border-1 {
@@ -171,6 +186,9 @@ a:hover {
 /* ====================================================
   ASSETSS--------------
   ===================================================== */
+.opacity-3 {
+  opacity: .3;
+}
 .tooltip {
   position: relative;
   /* display: inline-block; */
