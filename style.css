@@ -96,6 +96,9 @@ main {
 .code-rood {
   padding: 8px;
 }
+/* tijdelijk, omdat we niet in code oranje, maar code rood zitten !!! */
+.code-oranje {transform: matrix(.85, 0,0, .85, 0, -40);}
+/* ------------------------------------------------------------------ */
 .code-oranje__wrap {
   background-color: orange;
   color: #fff;
@@ -134,6 +137,12 @@ main {
 .code-rood__wrap li strong {color: hsla(0,100%,50%, .86);}
 .code-rood__wrap li a {color: red;}
 .code-rood__wrap li a:hover {color: hsla(0,100%,50%, .86);}
+
+.code-rood-vraagteken {
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+}
 
 /* Global stylesheet
 ======================================== */
