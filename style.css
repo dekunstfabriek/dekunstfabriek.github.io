@@ -106,7 +106,7 @@ main {
   border-radius: 6px;
 }
 .code-rood__wrap {
-  background-color: hsla(0,100%,50%, .86);
+  background-color: red;
   color: #fff;
   padding: 10px;
   border-radius: 6px;
@@ -134,7 +134,7 @@ main {
   margin-bottom: 4px;
 }
 .code-oranje__wrap li strong {color: orange;}
-.code-rood__wrap li strong {color: hsla(0,100%,50%, .86);}
+.code-rood__wrap li strong {color: #fff;text-decoration: underline;}
 .code-rood__wrap li a {color: red;}
 .code-rood__wrap li a:hover {color: hsla(0,100%,50%, .86);}
 
@@ -227,3 +227,10 @@ a:hover {
 /* .pijl li::after {
   content: " --- "
 } */
+.allert {
+  color: Red;
+}
+small.lowercase {
+  text-transform: lowercase;
+  font-size: .9em;
+}
