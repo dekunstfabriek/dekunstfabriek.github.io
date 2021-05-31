@@ -19,6 +19,55 @@ h1 {
   margin-bottom: 13px;
   text-transform: uppercase;
 }
+/* Global stylesheet
+======================================== */
+.border-1 {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 10px 0 5px;
+}
+.no-border {
+  padding: 5px 10px;
+  margin: 10px 0 5px;
+}
+section {
+  margin-bottom: 25px;
+}
+hr {
+  margin-bottom: 44px;
+  border-color: orange;
+  border-top: none;
+  border-width: thick;
+}
+p {
+  padding: 7px 0;
+}
+li {
+  margin-left: 15px;
+  list-style: auto;
+  padding-bottom: 4px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+u {
+  text-decoration-line: underline;
+  text-decoration-color: #EC7063;
+  text-decoration-style: solid;
+  color: #EC7063;
+}
+a {
+  text-decoration: none;
+  color: #FFBE33;
+  transition: all .6s;
+}
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
 .row {
   width: 88vw;
   height: 100vh;
@@ -83,6 +132,12 @@ main {
 .activiteiten {
   /* width: 45%; */
   margin: 5px;
+}
+.courier li,
+.feed li {
+  list-style: none;
+  padding-bottom: 4px;
+  font-family: courier;
 }
 .afwezig__item {
   background-color: rgba(11, 156, 46, 0.2);
@@ -152,55 +207,7 @@ main {
   padding: 10px;
 }
 
-/* Global stylesheet
-======================================== */
-.border-1 {
-  border: 2px solid #fff;
-  border-radius: 5px;
-  padding: 5px 10px;
-  margin: 10px 0 5px;
-}
-.no-border {
-  padding: 5px 10px;
-  margin: 10px 0 5px;
-}
-section {
-  margin-bottom: 25px;
-}
-hr {
-  margin-bottom: 44px;
-  border-color: orange;
-  border-top: none;
-  border-width: thick;
-}
-p {
-  padding: 7px 0;
-}
-li {
-  list-style: none;
-  padding-bottom: 4px;
-  font-family: courier;
-}
-h2 {
-  text-transform: uppercase;
-  font-size: 24px;
-  letter-spacing: 1px;
-}
-u {
-  text-decoration-line: underline;
-  text-decoration-color: #EC7063;
-  text-decoration-style: solid;
-  color: #EC7063;
-}
-a {
-  text-decoration: none;
-  color: #FFBE33;
-  transition: all .6s;
-}
-a:hover {
-  color: orange;
-  text-decoration: underline;
-}
+
 /* ====================================================
   ASSETSS--------------
   ===================================================== */
