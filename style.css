@@ -358,6 +358,35 @@ main {
     margin: 8px 0;
     border-bottom: 1px solid #fff;
   }
+  .proefweek__uitleg {
+    font-weight: lighter;
+  }
+  .lessen {
+    width: 100%;
+  }
+  @media screen and (min-width: 1040px) {
+    .lessen {
+      width: 80%;
+    }
+  }
+  .lessen span {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 2px;
+    color: #fff;
+  }
+  .lessen__blauw {
+    background-color: #39B5A8;
+  }
+  .lessen__roze {
+    background-color: rgb(239,62,112);
+  }
+  .lessen__orange {
+    background-color: rgba(234,184,15, 1);
+  }
+  .lessen__groen {
+    background-color: rgb(139,182,58);
+  }
   footer {
     height: 40vh;
   }
