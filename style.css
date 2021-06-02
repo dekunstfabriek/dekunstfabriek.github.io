@@ -72,6 +72,11 @@ table {
   width: 100%;
   margin-bottom: 60px;
 }
+@media screen and (min-width: 1040px) {
+  table {
+    width: 80%;
+  }
+}
 th,
 td {
   border-bottom: 2px solid rgba(243,214,117,1);
