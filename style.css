@@ -312,6 +312,7 @@ main {
   summary {
     font-size: 26px;
     text-transform: uppercase;
+    cursor: pointer;
   }
   summary {
     background-color: rgba(249,158,31,0.08);
