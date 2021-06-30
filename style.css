@@ -391,3 +391,11 @@ main {
   footer {
     height: 40vh;
   }
+.verwarring p,
+.verwarring i {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.verwarring strong i {
+  font-size: 16px;
+}
